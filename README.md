@@ -22,11 +22,11 @@ Name author: Tom Slenter
 
 E-mail: info@remotesyslog.com
 
-## 2. Add to scripts as following:
+## 2. Add to any scripts as following:
 ```
-from rspython import syslog
-from rspython import fcl
-from rspython import lvl
+from rslogger import syslog
+from rslogger import fcl
+from rslogger import lvl
 
 #Run test message to localhost (a syslog server is needed)
 syslog()
