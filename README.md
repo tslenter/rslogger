@@ -22,7 +22,9 @@ Name author: Tom Slenter
 
 E-mail: info@remotesyslog.com
 
-## 2. Add to any scripts as following:
+## 2. Instruction of usage:
+
+Add to any python script:
 ```
 from rslogger import syslog
 from rslogger import fcl
