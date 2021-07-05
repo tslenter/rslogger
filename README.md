@@ -28,7 +28,14 @@ E-mail: info@remotesyslog.com
 
 ## 3. Instruction of usage:
 
-Add to any python script:
+### 3.1 Available facility:
+kern, user, mail, daemon, auth, syslog, lpr, news, uucp, cron, authpriv, ftp, ntp, log_audit, log_alert, clock_daemon, local0, local1, local2, local3, local4, local5, local6, local7
+
+### 3.2 Available levels:
+
+emerg, alert, crit, err, warning, notice, info, debug
+
+### 3.3 How to add:
 ```
 from rslogger import syslog
 from rslogger import fcl
