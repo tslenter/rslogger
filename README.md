@@ -22,7 +22,12 @@ Name author: Tom Slenter
 
 E-mail: info@remotesyslog.com
 
-## 2. Instructions:
+## 2. Add to scripts as following:
+'''
+from rspython import syslog
+from rspython import fcl
+from rspython import lvl
+'''
 
 #Run the function:
 #Run test to local host as default
