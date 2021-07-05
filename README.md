@@ -22,7 +22,11 @@ Name author: Tom Slenter
 
 E-mail: info@remotesyslog.com
 
-## 2. Instruction of usage:
+## 2. Requirements:
+- Remote Syslog core or other syslog listener must be running as minimum
+- Python script below has the same path as the running python script
+
+## 3. Instruction of usage:
 
 Add to any python script:
 ```
