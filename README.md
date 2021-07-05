@@ -1,6 +1,6 @@
 ## 1. License
 
-"Syslog-Python" is a free application that can be used to view syslog messages.
+"rslogger" is a free application that can be used to view syslog messages.
 
 Copyright (C) 2021 Tom Slenter
 
