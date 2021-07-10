@@ -1,6 +1,6 @@
 ## 1. License
 
-"rslogger" is a free application that can be used to view syslog messages.
+"rslogger" is a free application that can be used to send syslog messages from python to Remote Syslog.
 
 Copyright (C) 2021 Tom Slenter
 
