@@ -1,7 +1,7 @@
 #!/bin/python3
 
 #License:
-#"Remote Syslog" is a free application what can be used to view syslog messages.
+#"rslogger" is a free application what can be used to send syslog messages from python to Remote Syslog.
 #Copyright (C) 2021 Tom Slenter
 #
 #This program is free software: you can redistribute it and/or modify
