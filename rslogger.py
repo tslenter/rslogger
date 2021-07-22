@@ -36,8 +36,8 @@ fcl = {
 }
 
 lvl = {
-    'crit': 0, 'err':1, 'warning': 2, 'notice': 3,
-    'info': 4, 'debug': 5, 'emerg': 6, 'alert': 7
+    'emerg': 0, 'alert':1, 'crit': 2, 'err': 3,
+    'warning': 4, 'notice': 5, 'info': 6, 'debug': 7
 }
 
 #Function to send stream, by default it send a test message to the localhost => port 514
