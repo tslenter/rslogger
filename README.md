@@ -22,7 +22,7 @@ copy rslogger <Directory of the project>
 cp rslogger <Directory of the project>
 ```
 
-### 2.2 Use case example
+### 2.2 Use case example with a Cisco DNA Controller:
 The following is a demo example that extracts data from a Cisco DNA controller and sends the data string to a syslog socket: 
 ```
 import requests
