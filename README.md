@@ -101,7 +101,7 @@ kern, user, mail, daemon, auth, syslog, lpr, news, uucp, cron, authpriv, ftp, nt
 
 emerg, alert, crit, err, warning, notice, info, debug
 
-### 2.4 How to add:
+### 2.4 Most basic code:
 ```
 from rslogger import syslog
 from rslogger import fcl
