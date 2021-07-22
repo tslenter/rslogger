@@ -94,14 +94,14 @@ else:
     print("Did you use the parameters to run this command?")
 ```
 
-### 3.2 Available facility:
+### 2.3 Available facility:
 kern, user, mail, daemon, auth, syslog, lpr, news, uucp, cron, authpriv, ftp, ntp, log_audit, log_alert, clock_daemon, local0, local1, local2, local3, local4, local5, local6, local7
 
-### 2.3 Available levels:
+### 2.4 Available levels:
 
 emerg, alert, crit, err, warning, notice, info, debug
 
-### 2.4 Most basic code:
+### 2.5 Most basic code:
 ```
 from rslogger import syslog
 from rslogger import fcl
