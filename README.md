@@ -1,15 +1,26 @@
 ## 1. Requirements:
 - Remote Syslog core or other syslog listener must be running as minimum
 - Python script below has the same path as the running python script
-- Install the python socket module using the following command:
-```
-pip install socket
-```
 
 ## 2. Instruction of usage:
 
 ### 2.1 Usage:
 Remote Syslog rslogger can be used to write important lines of informational logging from a python script to a remote syslog server. We found it usefull as we run multiple scripts on different hosts. With this we track the given info on a central / remote server. Example use case: automation scripts for device configuration.
+
+Install the python socket module using the following command:
+```
+pip install socket
+```
+
+Get a local copy of this repo:
+```
+git clone https://github.com/tslenter/rslogger
+cd rslogger
+#On Windows:
+copy rslogger <Directory of the project>
+#On Linux
+cp rslogger <Directory of the project>
+```
 
 ### 2.2 Use case example
 The following is a demo example that extracts data from a Cisco DNA controller and sends the data string to a syslog socket: 
