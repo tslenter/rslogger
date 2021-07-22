@@ -43,7 +43,14 @@ lvl = {
 #Function to send stream, by default it send a test message to the localhost => port 514
 def syslog(message='Test is RS test message to localhost', level=lvl['notice'], facility=fcl['daemon'], host='localhost', port=514):
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    data = '<%d>%s' % (level + facility, ((list(fcl.keys())[list(fcl.values()).index(facility)]) + ": " + (list(lvl.keys())[list(lvl.values()).index(level)]) + ': ' + message))
+    extlvl = (level, (list(lvl.keys())[list(lvl.values()).index(level)]))
+    level_num = str(extlvl[0])
+    level_str = str(extlvl[1])
+    extfct = (facility, (list(fcl.keys())[list(fcl.values()).index(facility)]))
+    facility_num = str(extfct[0])
+    facility_str = str(extfct[1])
+    calc=int(facility_num)*7+int(level_num)+int(facility_num)
+    data = '<'+ str(calc) + '>' + 'rslogger' + ': ' + facility_str + ': ' + level_str + ': ' + "rslogger output: " + message
     sock.sendto(data.encode(), (host, port))
     sock.close()
 
