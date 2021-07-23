@@ -50,7 +50,7 @@ def syslog(message='Test is RS test message to localhost', level=lvl['notice'], 
     facility_num = str(extfct[0])
     facility_str = str(extfct[1])
     calc=int(facility_num)*7+int(level_num)+int(facility_num)
-    data = '<'+ str(calc) + '>' + 'rslogger' + ': ' + facility_str + ': ' + level_str + ': ' + "rslogger output: " + message
+    data = '<'+ str(calc) + '>' + 'rslogger' + ': ' + facility_str + ': ' + level_str + ': ' + "rslogger_output: " + message
     sock.sendto(data.encode(), (host, port))
     sock.close()
 
