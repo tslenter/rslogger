@@ -118,7 +118,7 @@ message=str('Hello world')
 syslog(message, level=lvl['notice'], facility=fcl['log_audit'], host='172.16.201.2', port=514)
 
 #Expected output (syslog server):
-#Jul  5 17:02:21 comp0001.remotesyslog.com log_audit: notice: Hello world
+#Jul  5 17:02:21 comp0001.remotesyslog.com daemon: alert: rslogger output: Hello world
 ```
 
 ## 3. Donation
