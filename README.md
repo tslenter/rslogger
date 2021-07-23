@@ -123,17 +123,8 @@ syslog(message, level=lvl['alert'], facility=fcl['daemon'], host='172.16.201.2',
 
 ## 3. Donation
 
-Crypto:
-
-```
-XRP/Ripple: rHdkpJr3qYqBYY3y3S9ZMr4cFGpgP1eM6B
-BTC/Bitcoin: 1JVmexqGBQyGv9fVkSynHapi2U6ZCyjTUJ
-LTC/Litecoin Segwit: MAH8ATCK6X7biiTQrW7jUZ6L9eg1YBo5qS
-ETH/Ethereum: 0xd617391076F9bEa628f657606DEAB7a189199AF5
-```
-PayPal:
-
-[![paypal](https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KQKRPDQYHYR7W&currency_code=EUR&source=url)
+rslogger is free to use. If you like this content and you like to make a donation go to the main webpage of Remote Syslog for more information:
+https://www.remotesyslog.com/
 
 ## 4. Help
 
