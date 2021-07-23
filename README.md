@@ -115,7 +115,7 @@ syslog()
 
 #With variables:
 message=str('Hello world')
-syslog(message, level=lvl['notice'], facility=fcl['log_audit'], host='172.16.201.2', port=514)
+syslog(message, level=lvl['alert'], facility=fcl['daemon'], host='172.16.201.2', port=514)
 
 #Expected output (syslog server):
 #Jul  5 17:02:21 comp0001.remotesyslog.com rslogger: daemon: alert: rslogger_output: Hello world
