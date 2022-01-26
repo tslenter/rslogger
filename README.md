@@ -155,3 +155,16 @@ For more information contact the author:
 Name author: Tom Slenter
 
 E-mail: info@remotesyslog.com
+
+## 6. More info
+
+More information can be found:
+
+Website:
+https://www.remotesyslog.com/
+
+Read the docs:
+https://remote-syslog.readthedocs.io/en/latest/
+
+Master script:
+https://www.github.com/tslenter/RS
